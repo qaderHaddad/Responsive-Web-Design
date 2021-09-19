@@ -1,0 +1,143 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #555;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ---------------------------------
+FOOTER
+----------------------------------*/
+footer {
+  background-color: #131622;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to bottom, #284d7a, #000 100%);
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
+}
+
+footer ul {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul li {
+  margin: 0 8px;
+}
+
+footer ul li a {
+  font-size: 36px;
+  cursor: pointer;
+}
+
+/* Will only work if the display size is 800px OR LESS */
+@media (max-width: 800px) {
+  footer {
+    padding: 80px 15px;
+  }
+}
+
+/* ---------------------------------
+HERO
+----------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Oswald", sans-serif;
+}
+
+#hero {
+  background: gray;
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("img/hero.jpg");
+  background-repeat: none;
+  background-size: cover;
+
+  min-height: 100vh;
+}
+
+#hero h1,
+#hero h3 {
+  font-size: 28px;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 40px;
+}
+
+#hero a.btn {
+  color: white;
+  background-color: #131633;
+  text-decoration: none;
+  padding: 20px 46px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  opacity: 1;
+  border: 2px solid white;
+}
+
+#hero a.btn:hover {
+  background-color: #2196f3;
+}
+
+@media (max-width: 800px) {
+  #hero {
+    min-height: 600px;
+  }
+
+  #hero h1 {
+    font-size: 60px;
+  }
+
+  #hero h3 {
+    font-size: 18px;
+  }
+
+  #hero a.btn {
+    padding: 15px 40px;
+  }
+}
+
+div h3.title {
+  color: #131633;
+  text-transform: capitalize;
+  font-size: 32px;
+  margin-bottom: 35px;
+  text-align: center;
+}
