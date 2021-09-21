@@ -63,6 +63,20 @@
         flex-wrap: wrap;
 
       }
+
+      #left-column fieldset p{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+      }
+
+      #left-column input{
+        width: 90%;
+        padding: 5px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+      }
     </style>
   </head>
   <body>
@@ -93,6 +107,32 @@
           </fieldset>
           <fieldset>
             <legend>Block Two</legend>
+            <p>
+              <input id="address1" name="address1" type="text" placeholder="Address 1">
+              <input id="address2" name="address2" type="text" placeholder="Address 2">
+              <input id="city" name="city" type="text" placeholder="city">
+              <input id="zip" name="zip" type="number" placeholder="Zip Code">
+
+            </p>
+            <p>
+              <select>
+                <optgroup label="USA">
+                  <option>Chicago</option>
+                  <option>New York</option>
+                  <option>Dallas</option>
+                </optgroup>
+                <optgroup label="Australia">
+                  <option>Brisbane</option>
+                  <option>Sydney</option>
+                  <option>Melbourne</option>
+                </optgroup>
+              </select>
+
+              <select name="state" id="state">
+                <option value="" selected="selected">Select a State</option>
+                <option value="hoho" selected="hoho">HoHo State</option>
+              </select>
+            </p>
           </fieldset>
         </section>
         <section id="right-column">
