@@ -13,42 +13,34 @@ body {
 
 header{
     grid-area: header;
-    background-color: dimgray;
 }
 
 nav{
     grid-area: nav;
-    background-color: darkviolet;
 }
 
 #login {
     grid-area: login;
-    background-color: red;
 }
 #enhance_your_career {
     grid-area: enhance_your_career;
-    background-color: blue;
 
 }
 #important_stats {
     grid-area: important_stats;
-    background-color: green;
 
 }
 #build_apps {
     grid-area: build_apps;
-    background-color: olive;
 
 }
 #build_games {
 
     grid-area: build_games;
-    background-color: chocolate;
 
 }
 #build_websites {
     grid-area: build_websites;
-    background-color: mediumaquamarine;
 }
 
 footer{
@@ -146,4 +138,48 @@ main{
         "login enhance_your_career important_stats"
         "build_apps build_games build_websites"
         "footer footer footer"
+}
+
+
+header h1{
+    font-size: 3.25em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #22638E;
+}
+
+
+.options{
+    width: 95%;
+    background-color: white;
+    padding: 10px;
+    border-top: 3px solid #3498db;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.options-link{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #3498db;
+
+
+}
+
+.options-link:hover{
+    color: darkgreen;
+    text-decoration: underline;
+
+}
+
+.card{
+    background-color: white;
+}
+
+.card-blue{
+    background-color: #9ebcf5;
 }
