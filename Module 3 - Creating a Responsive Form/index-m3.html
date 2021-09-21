@@ -61,7 +61,7 @@
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        
+
       }
     </style>
   </head>
@@ -71,7 +71,25 @@
       <form id="formwrapper">
         <section id="left-column">
           <fieldset>
-            <legend>Block One</legend>
+            <p>
+              <legend>Block One</legend>
+              <input id="firstname" name="firstname" type="text" placeholder="First Name" autofocus required tabindex="1"> 
+              <input id="lastname" name="lastname" type="text" placeholder="Last Name" required tabindex="3">
+              <input id="email" name="email" type="text" placeholder="email@somewhere.com" required tabindex="2">
+              <input id="url" name="url" type="text" placeholder="URL">
+  
+            </p>
+            
+            <p>
+              <label for="username">Username:</label>
+              <input id="username" name="username" type="text">
+              <label for="password">Password:</label>
+              <input id="password" name="password" type="password">
+
+            </p>
+
+
+
           </fieldset>
           <fieldset>
             <legend>Block Two</legend>
